@@ -12,7 +12,7 @@ public class EvenFibonacciNumbers {
         int term2=1;
         int tempSum=0;
 
-        //tempSum is to make sure that finalSum doesn't exist the number limit, else the finalSum will exceed number limit onceßß
+        //tempSum is to make sure that finalSum doesn't exist the number limit, else the finalSum will exceed number limit once
         while(tempSum <= numberLimit){
             finalSum = term1 + term2;
             term1=term2;
